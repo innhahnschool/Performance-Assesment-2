@@ -1,0 +1,150 @@
+
+body,h1,h2,h3,h4,h5,h6 {
+    background-color: white;
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #F9EA8B;
+    opacity: 1;
+}
+  
+li {
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("../Photos/12.jpg");
+  
+    min-height: 800px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #FBEFCB;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #FFFFFF;
+  }
+  .login-text{
+      background-color: #FBEFCB;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #F9EA8B;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #123F77;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+li a {
+    display: block;
+    color: #123F77;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover:not(.active) {
+    background-color: #123F77;
+    color: #F9EA8B;
+}
+  
+.active {
+    background-color: #1458ac;
+    color: #F9EA8B;
+}
+
+.footer-distributed {
+    background-color: #123F77;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+  
+.footer-distributed .footer-left p {
+    color: #F9EA8B;
+    font-size: 18px;
+    margin: 0;
+}
+.footer-distributed h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9EA8B;
+    background-color: #123F77;
+
+}
+
+  
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+    background-color: #123F77;
+
+}
+  
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #F9EA8B;
+    border-radius: 2px;
+    font-size: 25px;
+    color: #123F77;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 3px;
+    transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{
+    transform:scale(1.1); -webkit-transform:scale(1.1);
+}
+.nothing{
+    color: #000000;
+    color: #123F77;
+    color: #1458ac;
+    color: #F9EA8B;
+    color: #FBEFCB;
+}
